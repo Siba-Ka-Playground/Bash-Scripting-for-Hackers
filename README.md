@@ -1,5 +1,5 @@
 # Bash-Scripting-for-Hackers
-## Youtube Playlist:
+## Youtube Playlist: https://www.youtube.com/playlist?list=PLzg7WDYFKTT3DJeWW1CxgCdbBMwSfT4xK
 Master Bash Scripting for Cybersecurity &amp; Ethical Hacking in this in-depth course series.
 
 You’ll learn how hackers and security professionals use Bash to: <br>
