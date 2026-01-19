@@ -1,0 +1,34 @@
+ Bash Scripting:
+ Bash (Bourne Again Shell) is:
+  1.  A command-line interpreter
+  2.  A scripting language
+  3.  The default shell on most Linux systems (including Kali Linux)
+
+ It allows you to:
+  1.  Automate tasks
+  2.  Control system behavior
+  3.  Chain Linux tools efficiently
+  4.  Write scripts for pentesting, monitoring, deployment, and system administration.
+
+ How Bash Script Works:
+  1. Script is read top to bottom
+  2. Commands are executed in order
+  3. Exit status determines success/failure
+  4. Scripts interact heavily with:
+      Files
+      Processes
+      Users
+      Networks
+ 
+ Basic Format of Bash Script:
+  Generally Bash Script starts with a "Shebang (#!)"
+  "#!/bin/bash"
+  Shebang = Tells the system which interpreter to use.
+ 
+  Bash Script follows the linux commands.
+
+ Running a Bash Script:
+  1. Start the Script with Shebang and use linux commands to write the script.
+  2. Save the file with ".sh" extension.
+  3. Change to executive mode using "chmod +x --filename--"
+  4. Run with command "./filename"
