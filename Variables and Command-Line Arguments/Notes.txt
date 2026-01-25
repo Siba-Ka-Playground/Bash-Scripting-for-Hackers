@@ -1,0 +1,61 @@
+
+ VARIABLES IN BASH SCRIPTING
+
+ Variables:
+ A variable in Bash is a named storage location used to hold data such as:
+  Strings
+  Numbers
+  Command output
+  File paths
+  User input
+
+ Variables allow scripts to be:
+  Dynamic
+  Reusable
+  Automated
+  User-driven
+ 
+ Key Characteristics of Bash Variables
+  No data types (everything is treated as string by default)
+  Case-sensitive
+  No spaces around =
+  Accessed using "$variable_name"
+  Can store output of commands
+  Exist in memory during script execution
+
+ Types of Variables:
+  1. User-Defined Variables: Created by the script writer.
+  2. System Variables: Provided by the system.
+      $HOME
+      $USER
+      $PATH
+      $SHELL
+      $PWD
+  3. Read-Only Variables: Cannot be modified once set.
+
+
+ ARGUMENTS IN BASH SCRIPTING
+
+ Arguments:
+ Arguments are values passed to a script at runtime via the command line.
+
+ They make scripts:
+  Flexible
+  Interactive
+  Reusable for different targets
+
+ Below Table Shows Argument Variables with their meanings:
+
+ ------------------------------------
+ | Variable | Meaning               |
+ | -------- | --------------------- |
+ | `$0`     | Script name           |
+ | `$1`     | First argument        |
+ | `$2`     | Second argument       |
+ | `$@`     | All arguments (array) |
+ | `$#`     | Number of arguments   |
+ | `$?`     | Last command status   |
+ | `$$`     | Script PID            |
+ ------------------------------------
+
+ 
