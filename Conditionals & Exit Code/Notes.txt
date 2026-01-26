@@ -1,0 +1,91 @@
+ 
+ CONDITIONALS IN BASH SCRIPTING:
+
+ Conditionals:
+ Conditionals allow a Bash script to make decisions based on:
+  Command success or failure
+  File existence
+  User input
+  Numerical or string comparisons
+  System state
+
+ Why Conditionals Are Important ?
+  Enable logic in scripts
+  Prevent errors
+  Improve security
+  Automate decisions
+  Handle unexpected situations
+  Without conditionals, scripts are static and unsafe.
+
+ File Test Operators:
+ ---------------------------
+ | Operator | Meaning      |
+ | -------- | ------------ |
+ | `-f`     | Regular file |
+ | `-d`     | Directory    |
+ | `-e`     | Exists       |
+ | `-r`     | Readable     |
+ | `-w`     | Writable     |
+ | `-x`     | Executable   |
+ ---------------------------
+ 
+ String Comparisons:
+ ---------------------------
+ | Operator | Meaning      |
+ | -------- | ------------ |
+ | `=`      | Equal        |
+ | `!=`     | Not equal    |
+ | `-z`     | Empty string |
+ | `-n`     | Not empty    |
+ ---------------------------
+
+ Numeric Comparisons:
+ -------------------------------
+ | Operator | Meaning          |
+ | -------- | ---------------- |
+ | `-eq`    | Equal            |
+ | `-ne`    | Not equal        |
+ | `-gt`    | Greater          |
+ | `-lt`    | Less             |
+ | `-ge`    | Greater or equal |
+ | `-le`    | Less or equal    |
+ -------------------------------
+ 
+ Logical Operators:
+ ----------------------
+ | Operator | Meaning |  
+ | -------- | ------- | 
+ | `&&`     | AND     |   
+ | `!`      | NOT     |  
+ ----------------------
+
+
+ 
+ EXIT CODES IN BASH SCRIPTING:
+ 
+ Exit Code:
+ An exit code (return code) is a numeric value returned by a command or script indicating:
+   0 → Success
+   Non-zero → Failure / Error
+
+ Linux uses exit codes for process communication.
+
+ Common Exit Codes:
+ --------------------------------------
+ | Code  | Meaning                    |
+ | ----- | -------------------------- |
+ | `0`   | Success                    |
+ | `1`   | General error              |
+ | `2`   | Misuse of shell builtin    |
+ | `126` | Permission issue           |
+ | `127` | Command not found          |
+ | `130` | Script terminated (Ctrl+C) |
+ --------------------------------------
+
+ Custom Exit Codes:
+ You can define your own exit values.
+    exit 1
+    exit 100
+ 
+ Valid range: 0–255
+ 
