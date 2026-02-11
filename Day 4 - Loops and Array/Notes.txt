@@ -1,0 +1,37 @@
+
+ LOOPS IN BASH SCRIPTING:
+ 
+ Loop:
+ A loop is a control structure that allows a script to execute a block of code repeatedly until a specified condition is met.
+
+ Loops are used when:
+  Tasks must be repeated
+  Data is processed in bulk
+  Automation is required
+  Iteration over files, IPs, ports, or users is needed
+
+ Types of Loops in Bash
+  for loop    - Executes a block of code for each item in a list or range.
+  while loop  - Executes commands while a condition remains true.
+  until loop  - Executes commands until a condition becomes true (opposite of while).
+ 
+ Loop Control Statements:
+  break: Exits the loop immediately.
+  continue: Skips the current iteration.
+
+
+
+
+ ARRAYS IN BASH SCRIPTING:
+
+ Array:
+ An array is a variable that can store multiple values under a single name, accessed using an index.
+ 
+ Key Characteristics of Arrays:
+  Index starts at 0
+  Can store mixed values
+  No fixed size
+  Ideal for batch operations
+ 
+ 
+ 
