@@ -1,0 +1,27 @@
+
+ FUNCTIONS IN BASH SCRIPTING:
+ 
+ Function:
+ A function in Bash is a named block of reusable code that performs a specific task and can be executed multiple times within a script.
+ 
+ Functions help you:
+  Break large scripts into logical units
+  Avoid code repetition
+  Improve readability
+  Simplify debugging
+  Build scalable automation
+
+ Function Syntax:
+
+  function_name() {
+   commands
+  }
+
+
+ Local vs Global Variables:
+
+ Global Variable:
+  Accessible everywhere in the script.
+
+ Local Variable:
+  Works inside a specific function.
